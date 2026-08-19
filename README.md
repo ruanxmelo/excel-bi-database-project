@@ -2,11 +2,20 @@
 
 ## Introduction
 
-**Project in development (Start date:July/2026 - Estimated conclusion: April/2027)**
+**Project in development 🛠️(Start date:July/2026 - Estimated conclusion: April/2027)**
 
 This project is being developed in partnership with a company to centralize, standardize and organize customer participation data from scientific events. Also develop and link a PowerBI file to excel and help visualize important business insights.
 
 In accordance with the LGPD (Brazilian General Data Protection Law), the files and information of this project will be modified to protect the company and its clients data.
+
+&nbsp;
+## 📌 Project Workflow
+
+**Business Problem → Data → Transformation → Data Model → Analysis → Insights**
+
+The project follows an end-to-end data analytics workflow, from
+understanding the business problem to delivering actionable insights
+through an excel database and simple dashboard and also a more complete Power BI dashboard.
 
 &nbsp;
 ## 📊 Project Overview
@@ -57,7 +66,7 @@ excel-bi-database-project/
 &nbsp;
 ## 📊 Dataset
 
-![alt text](image.png)
+![Data Sources](/screenshots/data_sources.png)
 
 **Explanations**: 
 
@@ -98,7 +107,7 @@ Power BI
 BI Dashboards / Insights  
 
 &nbsp;
-![alt text](process_flow.png)
+![Process Flow](/screenshots/process_flow.png)
 
 &nbsp;
 
@@ -128,8 +137,91 @@ BI Dashboards / Insights
 
 In this project we decided to use email as the main relationship field as we can have duplicated names,phones and cpf but no duplicated emails. Considering a customer changing email, we would create a new unique client with the new email as requested by the company.  
 
-![alt text](data_model.png)
+![Data Model](/screenshots/data_model.png)
 
 Since we have multiple columns (+20) on the Database, this data model is just a sample to explain the relationship used.
+
+&nbsp;
+
+## 📈 Excel Dashboard
+
+The idea of this Dashboard is being able to export a mailing on demand but at the same time get some quick insights about the customer and event attendance.
+
+![Data Model](/screenshots/excel_dashboard.png)
+
+### Key KPIs
+- Total emails in Database  
+- Event Attendance Buckets
+
+### Main Visualizations
+- Gender Breakdown  
+    - A pie chart illustrating the gender ratio across the database, showing a heavy skew toward female clients (24 female vs. 1 male).
+- Attendance per Event  
+    - A horizontal bar chart ranking the attendance per event.
+- Customer Retention Rate  
+    - A bar chart showing client retention (defined as attending 2 or more events in the same niche), highest in Orthopedics (33%) followed closely by Gynecology (30%).
+- Geographic Distribution Map  
+    - A choropleth map of Brazil highlighting client concentration by state, with the vast majority residing in São Paulo (18 clients).
+
+&nbsp;
+![Data Model](/screenshots/excel_insights.png)
+
+&nbsp;
+### 🔎 Excel Insights
+
+ With the data currently loaded into the database, I discovered the following insights:
+
+ - The vast majority of clients are women  
+ - 25th Orthopedics Symposium and Gynecology 2026 saw a considerable increase in attendance compared to their previous editions.
+ - Orthopedics and Gynecology demonstrate high customer retention, with roughly 1 in 3 clients returning for another event within the same specialty.
+ - Over half of all clients are based in the state of São Paulo (18), followed by the South Region of Brazil (PR, SC, RS).
+
+## 📈 Power BI Dashboard
+*Under Development🛠️*
+### 🔎 Power BI Insights
+*Under Development🛠️*
+
+## 🛠️ Tools & Technologies
+
+- Excel
+- Power Query
+- Power BI
+- DAX
+- Git / GitHub
+
+## 💡 Skills Demonstrated
+- Data cleaning  
+- Data transformation  
+- Data modeling  
+- DAX (Measures)
+- Excel  
+- Power BI  
+- Data visualization  
+- Business analysis
+
+## 🚀 How to Use
+
+1. Clone/Download
+2. Open excel sample_database
+3. Filter by niche, event and category
+4. Explore the dashboard
+5. Get the insights as desired
+
+## 📌 Limitations & Future Improvements
+
+- Connect excel file to Power BI
+- Add automated data refresh
+- Add more historical data
+- Implement BI Dashboards
+- Publish the dashboard to Power BI Service
+
+&nbsp;  
+👤 Author
+
+Ruan Oliveira
+
+[[LinkedIn](https://www.linkedin.com/in/ruan-oliveira-200b12166/)] | [[GitHub](https://github.com/ruanxmelo)]
+
+
 
 
