@@ -4,6 +4,8 @@
 
 **Project in development 🛠️(Start date:July/2026 - Estimated conclusion: April/2027)**
 
+![Data Sources](/screenshots/excel_dashboard.png)
+
 This project is being developed in partnership with a company to centralize, standardize and organize customer participation data from scientific events. Also develop and link a PowerBI file to excel and help visualize important business insights.
 
 In accordance with the LGPD (Brazilian General Data Protection Law), the files and information of this project will be modified to protect the company and its clients data.
@@ -14,15 +16,14 @@ In accordance with the LGPD (Brazilian General Data Protection Law), the files a
 **Business Problem → Data → Transformation → Data Model → Analysis → Insights**
 
 The project follows an end-to-end data analytics workflow, from
-understanding the business problem to delivering actionable insights
-through an excel database and simple dashboard and also a more complete Power BI dashboard.
+understanding the business problem to delivering actionable insights through an Excel database and simple dashboard and also a more complete Power BI dashboard.
 
 &nbsp;
 ## 📊 Project Overview
 
 **Business Problem**
 
-Noticing the lack of a structured database and realizing that the company could not easily access important insights about its events/conferences participations nor quickly gather customers information for marketing purposes, I proposed this project to the company's CEO.
+Noticing the lack of a structured database and realizing the company could not easily access important insights about its events/conferences nor quickly gather customers information for marketing purposes, I proposed this project to the company's CEO.
 
 **Objective**
 
@@ -30,14 +31,14 @@ This initiative aims to consolidate information currently distributed across dif
 
 **Who would benefit the most from this project**
 
-This project was created with the main objective of being easily usable and highly helpful for the CEO and the Business Partners.
+This project was designed to be easy to use and provide practical value for the CEO and the Business Partners.
 
 **Main Questions Answered**
 
 - How many customers/clients valuable and usable data the company holds at the moment.
-- Customers retention in the same event or the same niche as previouly attented.
-- The usage of the new database customers data for improving sales and event attendance.
-- Main target of each niche and event, easily accesable through Dashboard in Excel and BI.
+- Customer retention in the same event or the same niche as previously attented.
+- The usage of the new database customer data for improving sales and event attendance.
+- The main target of each niche and event, easily accesable through Dashboard in Excel and BI.
 
 &nbsp;
 ## 🗂️ Project Structure
@@ -68,11 +69,11 @@ excel-bi-database-project/
 
 ![Data Sources](/screenshots/data_sources.png)
 
-**Explanations**: 
+**Data Context**
 
 - Where the data comes from
 
-    - The data come from differente sources like Cloud, CRM, Marketing CRM and also photos from physical sales books.
+    - The data comes from different sources like Cloud, CRM, Marketing CRM and also photos from physical sales books.
 
 - What each file represents
 
